@@ -1,0 +1,57 @@
+<--!Don't forget the size of the image and the div-->
+header {
+    text-align: center;
+    margin-bottom: 45px ;
+}
+
+
+span {
+    color: midnightblue;
+}
+
+#Beauty {
+    float: left;
+    
+
+}
+
+#Construction {
+    
+    float: left;
+}
+
+img {
+    width: 36%;
+    float: left;
+    margin: 20px;
+}
+
+div {
+    width: 40%;
+    display: inline-block;
+}
+p {
+    font-weight: 100;
+}
+
+@media (max-width:680px){
+    body {
+        img {
+            margin-bottom: 10px;
+            width: 100%;
+            display: inline;
+            
+        }
+
+        div {
+            width: 100%;
+            
+        }
+
+       
+        
+
+       
+    }
+}
+
